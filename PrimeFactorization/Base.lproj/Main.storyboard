@@ -24,7 +24,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <connections>
-                                            <action selector="processFactor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uZA-uH-xUW"/>
+                                            <action selector="processFactor:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="7mF-AK-P5x"/>
                                         </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FEEDBACK" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fx-Dw-gub">
@@ -52,7 +52,6 @@
                     </view>
                     <connections>
                         <outlet property="feedbackLabel" destination="4fx-Dw-gub" id="aea-ab-8lr"/>
-                        <outlet property="feedbackLbale" destination="4fx-Dw-gub" id="z8x-vY-FDu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
